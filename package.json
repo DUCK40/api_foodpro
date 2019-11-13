@@ -1,0 +1,35 @@
+{
+  "name": "apifoodpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "build": "webpack",
+    "prod": "node dist/api.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.0",
+    "path": "^0.12.7",
+    "pg": "^7.12.1",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
